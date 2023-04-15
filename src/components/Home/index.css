@@ -1,0 +1,51 @@
+.heading {
+  font-size: 25px;
+  color: green;
+  font-family: 'Roboto';
+}
+
+.Home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.LogOutButton {
+  height: 40px;
+  width: 40vw;
+  background-color: #eb34d2;
+  border: 0px solid;
+  color: #ffffff;
+  font-size: 15px;
+  margin-top: 10px;
+  border-radius: 10px;
+  margin-left: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 30px;
+    color: green;
+    font-family: 'Roboto';
+  }
+
+  .Home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .LogOutButton {
+    height: 40px;
+    width: 20vw;
+    background-color: #eb34d2;
+    border: 0px solid;
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: 30px;
+  }
+}

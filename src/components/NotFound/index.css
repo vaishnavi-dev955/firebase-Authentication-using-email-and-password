@@ -1,0 +1,19 @@
+/* Write your CSS code here */
+.NotFound-Container {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-style {
+  height: 300px;
+  width: 300px;
+}
+
+.Not-FoundTitle {
+  font-size: 30px;
+  color: #551e53;
+  font-family: 'Roboto';
+}
